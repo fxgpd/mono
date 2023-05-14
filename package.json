@@ -2,7 +2,10 @@
   "name": "fxgpd",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "run project": "npx nx run word-app:serve",
+    "run storybook with shared/ui": "nx run shared-ui:storybook"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~16.0.0",
@@ -14,6 +17,8 @@
     "@angular/platform-browser-dynamic": "~16.0.0",
     "@angular/router": "~16.0.0",
     "@nx/angular": "16.1.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
@@ -33,10 +38,14 @@
     "@nx/jest": "16.1.4",
     "@nx/js": "16.1.4",
     "@nx/linter": "16.1.4",
+    "@nx/storybook": "^16.1.4",
     "@nx/web": "16.1.4",
     "@nx/workspace": "16.1.4",
     "@schematics/angular": "~16.0.0",
-    "@types/jest": "^29.4.0",
+    "@storybook/addon-essentials": "^7.0.9",
+    "@storybook/angular": "^7.0.9",
+    "@storybook/core-server": "^7.0.9",
+    "@types/jest": "^29.5.2",
     "@types/node": "16.11.7",
     "@typescript-eslint/eslint-plugin": "^5.58.0",
     "@typescript-eslint/parser": "^5.58.0",
