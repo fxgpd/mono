@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { SharedUiModule } from '@fxgpd/shared-ui';
+
+
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [SharedUiModule, RouterModule],
   selector: 'fxgpd-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
