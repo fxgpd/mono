@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { SharedUiModule } from '@fxgpd/shared-ui';
-
-
+import { SharedUiModule } from '@fx/shared-ui';
 
 @Component({
   standalone: true,

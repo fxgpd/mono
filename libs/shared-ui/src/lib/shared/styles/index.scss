@@ -1,0 +1,11 @@
+/* Atoms */
+
+@import './atoms/buttons/button.primary.scss';
+
+/* Variables */
+@import './variables/index.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+}

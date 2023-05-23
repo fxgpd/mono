@@ -1,0 +1,28 @@
+:host {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  font-size: var(--button-font-size, 16px);
+
+  &.large {
+    width: var(--button-width, 100px);
+    height: var(--button-height, 100px);
+    padding: var(--button-padding, 7px);
+    font-size: var(--button-font-size, 32px);
+  }
+
+  &.small {
+    width: var(--button-width, 20px);
+    height: var(--button-height, 20px);
+    padding: var(--button-padding, 3px);
+    font-size: var(--button-font-size, 8px);
+  }
+
+  &.filled {
+    background-color: aquamarine;
+  }
+
+  &.outlined {
+    background-color: blueviolet;
+  }
+}

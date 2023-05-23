@@ -1,11 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
-import { ButtonComponent } from './shared/components/atoms/button/button.component';
+import { WordAppTemplateComponent } from './shared/templates/word-app/word-app.template';
 
 @NgModule({
-  imports: [CommonModule],
-  declarations: [ButtonComponent],
-  exports: [ButtonComponent],
+  imports: [CommonModule, WordAppTemplateComponent],
+  declarations: [],
+  exports: [WordAppTemplateComponent],
 })
 export class SharedUiModule {}
