@@ -1,11 +1,25 @@
 :root {
-  --button-width: 175px;
-  --button-height: 175px;
-  --button-font-size: 14px;
-  --button-font-weight: 400;
-  --button-border-style: solid;
-  --button-padding: 9px;
-  --button-transition: 0.5s;
-  --button-text-color: #000;
-  --button-background-color: gray;
+  --fx-button-max-width: 90px;
+  --fx-button-font-size: 14px;
+  --fx-button-font-weight: 400;
+  --fx-button-border-style-solid: solid;
+  --fx-button-border-radius: 25px;
+  --fx-button-padding: 10px 15px;
+  --fx-button-transition: 0.5s;
+
+  --fx-button-text-color: hsl(0, 0%, 100%);
+  --fx-button-background-color: hsl(0, 0%, 50%);
+
+  /* button filled */
+  --fx-button-filled-background-color: hsl(0, 0%, 40%);
+
+  /* button filled hover */
+  --fx-button-filled-hover-background-color: hsl(0, 0%, 55%);
+
+  /* button filled active */
+  --fx-button-filled-active-background-color: hsl(0, 0%, 30%);
+
+  /* button filled disabled */
+  --fx-button-filled-disabled-background-color: hsl(0, 0%, 90%);
+  --fx-button-filled-disabled-text-color: hsl(0, 0%, 30%);
 }
