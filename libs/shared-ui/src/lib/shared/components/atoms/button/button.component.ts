@@ -1,10 +1,4 @@
-import {
-  Component,
-  ElementRef,
-  HostBinding,
-  Input,
-  OnInit,
-} from '@angular/core';
+import { Component, ElementRef, HostBinding, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: '[fx-button]',
@@ -27,5 +21,9 @@ export class ButtonComponent implements OnInit {
 
   @HostBinding('class.outlined') get getClassTypeOutlined() {
     return this.buttonType === 'outlined';
+  }
+
+  @HostBinding('class.text') get getClassTypeText() {
+    return this.buttonType === 'text';
   }
 }
