@@ -2,7 +2,10 @@
   "name": "fxgpd",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "run project": "npx nx run word-app:serve",
+    "run storybook with shared/ui": "nx run shared-ui:storybook"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~16.0.0",

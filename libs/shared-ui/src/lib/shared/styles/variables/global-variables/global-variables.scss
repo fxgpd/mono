@@ -1,0 +1,16 @@
+@import 'libs/shared-ui/src/lib/shared/styles/variables/brand-variables/brand-variables.scss';
+
+/*global variables */
+
+:root {
+  /* Default Theme */
+
+  --default-theme-color: var(--default-theme-color-brand);
+
+  /* Theme 1 */
+
+  --theme-1-fx-button-background-color: var(--theme-1-button-background-color);
+  --theme-1-fx-button-text-color: var(--theme-1-color-white);
+  --theme-1-fx-button-padding: 2rem 3rem;
+  --theme-1-fx-button-font-size: 20px;
+}

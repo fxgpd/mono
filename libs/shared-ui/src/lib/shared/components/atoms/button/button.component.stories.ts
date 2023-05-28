@@ -11,5 +11,7 @@ export const Primary = {
   render: (args: ButtonComponent) => ({
     props: args,
   }),
-  args: {},
+  args: {
+    text: 'Enabled',
+  },
 };
