@@ -11,6 +11,9 @@
     "jest.config.ts",
     "src/**/*.test.ts",
     "src/**/*.spec.ts",
-    "src/**/*.d.ts"
+    "src/**/*.d.ts",
+    "src/lib/shared/components/atoms/button/spec.ts",
+    "src/lib/shared/components/atoms/link/spec.ts",
+    "src/lib/shared/components/atoms/image/spec.ts"
   ]
 }

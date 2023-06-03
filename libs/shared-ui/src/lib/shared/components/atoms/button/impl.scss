@@ -1,6 +1,7 @@
 :host {
   background-color: var(--fx-button-background-color);
-  max-width: var(--fx-button-max-width);
+  max-width: var(--fx-button-max-width, 90px);
+  min-width: var(--fx-button-min-width, 70px);
   color: var(--fx-button-text-color);
   padding: var(--fx-button-padding);
   overflow: hidden;
@@ -17,6 +18,7 @@
     border: none;
     color: $fx-button-filled-text-color;
     background-color: var(--fx-button-filled-background-color);
+    font-family: var(--font-family_primary);
 
     &:hover {
       background-color: var(--fx-button-filled-hover-background-color);
@@ -49,6 +51,7 @@
     border: 1px solid var(--fx-button-outlined-border-color);
     color: $fx-button-outlined-active-text-color;
     background-color: var(--fx-button-outlined-background-color);
+    font-family: var(--font-family_primary);
 
     &:hover {
       color: $fx-button-outlined-hover-background-color;
@@ -71,6 +74,11 @@
     border: none;
     color: var(--fx-button-text-text-color);
     background-color: transparent;
+    width: auto;
+    font-family: var(--font-family_secondary);
+    margin: 0;
+    padding: 0;
+    min-width: auto;
 
     &:hover {
       color: var(--fx-button-text-hover-text-color);

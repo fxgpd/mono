@@ -1,6 +1,6 @@
 import { Meta } from '@storybook/angular';
 
-import { ButtonComponent } from './button.component';
+import { ButtonComponent } from './impl';
 
 export default {
   title: 'ButtonComponent',

@@ -11,6 +11,9 @@
     "../src/**/*.stories.jsx",
     "../src/**/*.stories.tsx",
     "../src/**/*.stories.mdx",
-    "*.js"
+    "*.js",
+    "../src/lib/shared/components/atoms/button/stories.ts",
+    "../src/lib/shared/components/atoms/link/stories.ts",
+    "../src/lib/shared/components/atoms/image/stories.ts"
   ]
 }

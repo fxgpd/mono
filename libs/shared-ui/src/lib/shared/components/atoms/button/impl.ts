@@ -1,10 +1,16 @@
-import { Component, ElementRef, HostBinding, Input, OnInit } from '@angular/core';
+import {
+  Component,
+  ElementRef,
+  HostBinding,
+  Input,
+  OnInit,
+} from '@angular/core';
 
 @Component({
   selector: '[fx-button]',
   standalone: true,
-  templateUrl: './button.component.html',
-  styleUrls: ['./button.component.scss'],
+  templateUrl: './impl.html',
+  styleUrls: ['./impl.scss'],
 })
 export class ButtonComponent implements OnInit {
   constructor(private elementRef: ElementRef<HTMLElement>) {}

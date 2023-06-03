@@ -1,2 +1,5 @@
 @import './global-variables/global-variables.scss';
-@import './buttons-variables/button.variables.scss';
+
+@import './atoms/buttons-variables/button.variables.scss';
+@import './atoms/link-variables/link.variables.scss';
+@import './atoms/image-variables/image.variables.scss';
