@@ -1,0 +1,19 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "emitDecoratorMetadata": true
+  },
+
+  "exclude": ["../**/*.spec.ts"],
+  "include": [
+    "../src/**/*.stories.ts",
+    "../src/**/*.stories.js",
+    "../src/**/*.stories.jsx",
+    "../src/**/*.stories.tsx",
+    "../src/**/*.stories.mdx",
+    "*.js",
+    "../src/lib/shared/components/atoms/button/stories.ts",
+    "../src/lib/shared/components/atoms/link/stories.ts",
+    "../src/lib/shared/components/atoms/image/stories.ts"
+  ]
+}

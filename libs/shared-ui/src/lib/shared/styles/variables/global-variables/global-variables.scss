@@ -1,0 +1,87 @@
+@import 'libs/shared-ui/src/lib/shared/styles/variables/brand-variables/brand-variables.scss';
+
+/*global variables */
+
+:root {
+  /* Default Theme */
+
+  /*Colors*/
+  --default-theme-color-brand-0: hsl(0, 0%, 0%);
+  --default-theme-color-brand-10: hsl(0, 0%, 10%);
+  --default-theme-color-brand-20: hsl(0, 0%, 20%);
+  --default-theme-color-brand-30: hsl(0, 0%, 30%);
+  --default-theme-color-brand-40: hsl(0, 0%, 40%);
+  --default-theme-color-brand-50: hsl(0, 0%, 50%);
+  --default-theme-color-brand-60: hsl(0, 0%, 60%);
+  --default-theme-color-brand-70: hsl(0, 0%, 70%);
+  --default-theme-color-brand-80: hsl(0, 0%, 80%);
+  --default-theme-color-brand-90: hsl(0, 0%, 90%);
+  --default-theme-color-brand-100: hsl(0, 0%, 100%);
+
+  /*Typography*/
+
+  --font-family_primary: 'Arial', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Helvetica Neue';
+  --font-family_secondary: 'Helvetica Neue', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Arial;
+
+  --font-size_base: 0.25rem;
+
+  --font-size_01: calc(var(--font-size_base) / 2);
+  --font-size_02: var(--font-size_base);
+  --font-size_03: calc(var(--font-size_base) * 2);
+  --font-size_04: calc(var(--font-size_base) * 3);
+  --font-size_05: calc(var(--font-size_base) * 4);
+  --font-size_06: calc(var(--font-size_base) * 6);
+  --font-size_07: calc(var(--font-size_base) * 8);
+  --font-size_08: calc(var(--font-size_base) * 10);
+  --font-size_09: calc(var(--font-size_base) * 12);
+  --font-size_10: calc(var(--font-size_base) * 16);
+  --font-size_11: calc(var(--font-size_base) * 20);
+  --font-size_12: calc(var(--font-size_base) * 24);
+  --font-size_13: calc(var(--font-size_base) * 40);
+
+  --font-size_xxxxxs: var(--font-size_01);
+  --font-size_xxxxs: var(--font-size_02);
+  --font-size_xxxs: var(--font-size_03);
+  --font-size_xxs: var(--font-size_04);
+  --font-size_xs: var(--font-size_05);
+  --font-size_s: var(--font-size_06);
+  --font-size_m: var(--font-size_07);
+  --font-size_l: var(--font-size_08);
+  --font-size_xl: var(--font-size_09);
+  --font-size_xxl: var(--font-size_10);
+  --font-size_xxxl: var(--font-size_11);
+  --font-size_xxxxl: var(--font-size_12);
+  --font-size_xxxxxl: var(--font-size_13);
+
+  --spacing_core_base: 0.25rem;
+
+  --spacing_calculated_01: calc(var(--spacing_core_base) / 2);
+  --spacing_calculated_02: var(--spacing_core_base);
+  --spacing_calculated_03: calc(var(--spacing_core_base) * 2);
+  --spacing_calculated_04: calc(var(--spacing_core_base) * 3);
+  --spacing_calculated_05: calc(var(--spacing_core_base) * 4);
+  --spacing_calculated_06: calc(var(--spacing_core_base) * 6);
+  --spacing_calculated_07: calc(var(--spacing_core_base) * 8);
+  --spacing_calculated_08: calc(var(--spacing_core_base) * 10);
+  --spacing_calculated_09: calc(var(--spacing_core_base) * 12);
+  --spacing_calculated_10: calc(var(--spacing_core_base) * 16);
+  --spacing_calculated_11: calc(var(--spacing_core_base) * 20);
+  --spacing_calculated_12: calc(var(--spacing_core_base) * 24);
+  --spacing_calculated_13: calc(var(--spacing_core_base) * 40);
+
+  --spacing_logical_xxxxxs: var(--spacing_calculated_01);
+  --spacing_logical_xxxxs: var(--spacing_calculated_02);
+  --spacing_logical_xxxs: var(--spacing_calculated_03);
+  --spacing_logical_xxs: var(--spacing_calculated_04);
+  --spacing_logical_xs: var(--spacing_calculated_05);
+  --spacing_logical_s: var(--spacing_calculated_06);
+  --spacing_logical_m: var(--spacing_calculated_07);
+  --spacing_logical_l: var(--spacing_calculated_08);
+  --spacing_logical_xl: var(--spacing_calculated_09);
+  --spacing_logical_xxl: var(--spacing_calculated_10);
+  --spacing_logical_xxxl: var(--spacing_calculated_11);
+  --spacing_logical_xxxxl: var(--spacing_calculated_12);
+  --spacing_logical_xxxxxl: var(--spacing_calculated_13);
+}

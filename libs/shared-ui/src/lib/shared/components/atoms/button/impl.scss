@@ -1,0 +1,95 @@
+:host {
+  background-color: var(--fx-button-background-color);
+  max-width: var(--fx-button-max-width, 90px);
+  min-width: var(--fx-button-min-width, 70px);
+  color: var(--fx-button-text-color);
+  padding: var(--fx-button-padding);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--fx-button-border-radius);
+  font-size: var(--fx-button-font-size, 14px);
+  transition: 0.4s;
+
+  &.filled {
+    $fx-button-filled-text-color: var(--fx-button-text-color);
+
+    border: none;
+    color: $fx-button-filled-text-color;
+    background-color: var(--fx-button-filled-background-color);
+    font-family: var(--font-family_primary);
+
+    &:hover {
+      background-color: var(--fx-button-filled-hover-background-color);
+    }
+
+    &:active:not([disabled]) {
+      box-shadow: inset 100px 0 0 0
+        var(--fx-button-filled-active-background-color);
+      transition: 0.075s ease-out;
+    }
+
+    &:disabled {
+      background-color: var(--fx-button-filled-disabled-background-color);
+      color: var(--fx-button-filled-disabled-text-color);
+    }
+  }
+
+  &.outlined {
+    $fx-button-outlined-hover-background-color: var(
+      --fx-button-outlined-background-color
+    );
+    $fx-button-outlined-hover-color: var(--fx-button-outlined-text-color);
+    $fx-button-outlined-active-text-color: var(
+      --fx-button-outlined-active-text-color
+    );
+    $fx-button-outlined-active-background-color: var(
+      --fx-button-outlined-active-background-color
+    );
+
+    border: 1px solid var(--fx-button-outlined-border-color);
+    color: $fx-button-outlined-active-text-color;
+    background-color: var(--fx-button-outlined-background-color);
+    font-family: var(--font-family_primary);
+
+    &:hover {
+      color: $fx-button-outlined-hover-background-color;
+      background-color: $fx-button-outlined-hover-color;
+    }
+
+    &:active {
+      color: $fx-button-outlined-active-text-color;
+      background-color: $fx-button-outlined-active-background-color;
+    }
+
+    &:disabled {
+      color: var(--fx-button-outlined-disabled-text-color);
+      background-color: var(--fx-button-outlined-disabled-background-color);
+      border-color: var(--fx-button-outlined-disabled-border-color);
+    }
+  }
+
+  &.text {
+    border: none;
+    color: var(--fx-button-text-text-color);
+    background-color: transparent;
+    width: auto;
+    font-family: var(--font-family_secondary);
+    margin: 0;
+    padding: 0;
+    min-width: auto;
+
+    &:hover {
+      color: var(--fx-button-text-hover-text-color);
+    }
+
+    &:active {
+      color: var(--fx-button-text-active-text-color);
+    }
+
+    &:disabled {
+      color: var(--fx-button-text-disabled-text-color);
+    }
+  }
+}

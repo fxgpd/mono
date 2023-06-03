@@ -1,0 +1,22 @@
+:host {
+  color: var(--fx-link-text-color);
+  font-family: var(--font-family_primary);
+  font-size: var(--fx-link-font-size, 12px);
+  text-decoration: none;
+  display: inline-block;
+
+  &::after {
+    display: block;
+    content: '';
+    width: 0;
+    height: 1px;
+    background-color: var(--fx-link-background-color);
+    transition: width 0.3s;
+  }
+
+  &:hover::after {
+    width: 100%;
+    transform-origin: 0%, 50%;
+    transition: width 0.3s;
+  }
+}
