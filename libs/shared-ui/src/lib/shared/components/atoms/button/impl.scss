@@ -92,4 +92,25 @@
       color: var(--fx-button-text-disabled-text-color);
     }
   }
+
+  &.close {
+    background-image: url('../../../assets/images/close.svg');
+    background-position: center;
+    background-size: contain;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    max-width: none;
+    min-width: auto;
+    border-radius: 0;
+
+    &:hover {
+      opacity: 0.4;
+      transition: opacity 0.4s;
+    }
+  }
 }
