@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
-import { WordAppTemplateComponent } from './shared/templates/word-app/word-app.template';
+import { WordAppTemplateComponent } from './templates/word-app/impl';
 
 @NgModule({
   imports: [CommonModule, WordAppTemplateComponent],

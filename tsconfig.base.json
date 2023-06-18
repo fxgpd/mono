@@ -8,14 +8,16 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "importHelpers": true,
-    "target": "es2015",
+    "target": "ES2022",
     "module": "esnext",
     "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@fx/shared-ui": ["libs/shared-ui/src/index.ts"]
+      "@fx/shared-ui": ["libs/shared-ui/src"],
+      "@fx/shared-ui/index": ["libs/shared-ui/src/index.ts"],
+      "@fx/shared-ui/templates": ["libs/shared-ui/src/lib/templates"]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { WordAppTemplateComponent } from './word-app.template';
+import { WordAppTemplateComponent } from './impl';
 
 describe('TemplateMarkupComponent', () => {
   let component: WordAppTemplateComponent;
