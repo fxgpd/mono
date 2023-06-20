@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
-import { SharedUiModule } from '@fx/shared-ui';
+import { SharedUiModule } from '@fx/shared-ui/index';
 
 @Component({
   standalone: true,
-  imports: [SharedUiModule, RouterModule],
+  imports: [SharedUiModule],
   selector: 'fxgpd-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],

@@ -15,6 +15,6 @@ export class ImageComponent {
     return true;
   }
 
-  @Input() src = '';
-  @Input() alt = '';
+  @Input() src: string | undefined;
+  @Input() alt: string | undefined;
 }

@@ -1,0 +1,48 @@
+:host {
+  display: inline-block;
+  background-color: var(--fx-chip-background-color);
+  border: 1px solid var(--fx-chip-border-color);
+  border-radius: var(--fx-chip-border-radius);
+  padding: 3px 5px;
+  height: 20px;
+  font-size: var(--font-size_xs);
+  margin-inline-end: var(--spacing_logical_xxxs);
+  line-height: var(--spacing_logical_xs);
+
+  .fx-chip-content {
+    display: flex;
+    align-items: center;
+  }
+
+  &.fx-chip-input {
+    span {
+      margin-inline-end: 5px;
+    }
+
+    .fx-chip-close {
+      width: 14px;
+      height: 14px;
+    }
+  }
+
+  &.fx-chip-filter {
+    border: none;
+    outline: 0.5px solid var(--fx-chip-background-color);
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.7;
+      transition: 0.5s;
+    }
+
+    span {
+      margin-inline-start: 5px;
+    }
+
+    .fx-chip-image {
+      order: -1;
+      width: 16px;
+      height: 16px;
+    }
+  }
+}

@@ -32,4 +32,8 @@ export class ButtonComponent implements OnInit {
   @HostBinding('class.text') get getClassTypeText() {
     return this.buttonType === 'text';
   }
+
+  @HostBinding('class.close') get getClassTypeClose() {
+    return this.buttonType === 'close';
+  }
 }
