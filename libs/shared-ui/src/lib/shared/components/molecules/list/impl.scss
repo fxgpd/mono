@@ -1,0 +1,12 @@
+:host {
+  .word-explanation-list {
+    margin-inline-start: 15px;
+    margin-bottom: 20px;
+
+    &-header {
+      font-size: var(--fx-card-word-explanation-list-header-font-size);
+      font-style: italic;
+      margin-bottom: var(--spacing_logical_xxxxs);
+    }
+  }
+}
