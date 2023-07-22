@@ -1,0 +1,19 @@
+:host {
+  display: block;
+  padding: var(--spacing_logical_xxxs);
+  outline: 1px solid var(--fx-card-outline-color);
+  border-radius: var(--fx-card-border-radius);
+  width: 300px;
+
+  .word-definition-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--spacing_logical_xs);
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--fx-card-separate-line-color);
+  }
+
+  .card-see-more-button {
+    margin-inline-start: var(--fx-card-see-more-button-margin);
+  }
+}

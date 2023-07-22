@@ -1,0 +1,27 @@
+<ng-container *ngIf="typeList === 'common'">
+  <ng-template [ngTemplateOutlet]="commonList"></ng-template>
+</ng-container>
+
+<ng-container *ngIf="typeList === 'numeric'">
+  <ng-template [ngTemplateOutlet]="numericList"></ng-template>
+</ng-container>
+
+<ng-template #commonList>
+  <ul class="word-explanation-list">
+    <h4 class="word-explanation-list-header">{{headerValue}}</h4>
+    <fx-list-item
+      [value]="textValue"
+      *ngFor="let item of [1, 2, 3, 4]"
+    ></fx-list-item>
+  </ul>
+</ng-template>
+
+<ng-template #numericList>
+  <ol class="word-explanation-list">
+    <h4 class="word-explanation-list-header">{{headerValue}}</h4>
+    <fx-list-item
+      [value]="textValue"
+      *ngFor="let item of [1, 2, 3, 4]"
+    ></fx-list-item>
+  </ol>
+</ng-template>
